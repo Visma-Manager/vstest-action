@@ -18,7 +18,7 @@ export async function run() {
       core.debug(`${file}`)
     });
 
-    core.info(`Using pre-existing test tools...`);
+    core.info(`Using pre-downloaded test tools...`);
     let workerZipPath = path.join(__dirname, 'win-x64.zip')
 
     core.info(`Unzipping test tools...`);
