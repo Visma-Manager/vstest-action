@@ -5,7 +5,7 @@ import {getInputs} from './input-helper';
 import {NoFileOptions} from './constants';
 
 export async function uploadArtifact() {
-  try {
+/*  try {
     const inputs = getInputs()
     const searchResult = await findFilesToUpload(inputs.searchPath)
 
@@ -72,4 +72,5 @@ export async function uploadArtifact() {
   } catch (err) {
     core.setFailed(err.message)
   }
+*/
 }
