@@ -7246,7 +7246,8 @@ function uploadArtifact() {
                 }
             }
             else {
-                const s = searchResult.filesToUpload.length === 1 ? '' : 's';
+              /*  
+               const s = searchResult.filesToUpload.length === 1 ? '' : 's';
                 core.info(`With the provided path, there will be ${searchResult.filesToUpload.length} file${s} uploaded`);
                 core.debug(`Root artifact directory is ${searchResult.rootDirectory}`);
                 if (searchResult.filesToUpload.length > 10000) {
@@ -7266,6 +7267,7 @@ function uploadArtifact() {
                 else {
                     core.info(`Artifact ${uploadResponse.artifactName} has been successfully uploaded!`);
                 }
+              */
             }
         }
         catch (err) {
